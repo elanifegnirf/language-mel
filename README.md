@@ -10,10 +10,13 @@ from the [MEL TextMate bundle](https://github.com/textmate/mel.tmbundle.git).
 Contributions are greatly appreciated. Please fork this repository and open a
 pull request to add snippets, make grammar tweaks, etc.
 
+--------------------------------------------------------------------------------
+
 ## Manually Installation
 
 Because this package hasn't been published to the [central Atom package
-repository](https://atom.io/packages) yet, you have to install this package manually.
+repository](https://atom.io/packages) yet, you have to install this package
+manually.
 
 use the command below to get this package to your ~/.atom/packages folder.
 
