@@ -20,8 +20,8 @@ manually.
 
 use the command below to get this package to your ~/.atom/packages folder.
 
-    git clone https://github.com/elanifegnirf/language-mel.git ~/.atom/packages/
+    git clone https://github.com/elanifegnirf/language-mel.git ~/.atom/packages/language-mel
 
-or if you forked this project on github first, then
+or if you forked this project on github, then
 
-    git clone https://github.com/yourGithubID/language-mel.git ~/.atom/packages/
+    git clone https://github.com/yourGithubID/language-mel.git ~/.atom/packages/language-mel
