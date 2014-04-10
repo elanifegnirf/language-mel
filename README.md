@@ -1,6 +1,6 @@
 # [MEL](http://en.wikipedia.org/wiki/Maya_Embedded_Language) language support in Atom
 
-Adds syntax highlighting to MEL files in Atom.
+Adds syntax highlighting to MEL files in [Atom](https://atom.io/).
 
 Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
 from the [MEL TextMate bundle](https://github.com/textmate/mel.tmbundle.git).

@@ -2,7 +2,7 @@
   "name": "language-mel",
   "version": "0.1.0",
   "description": "MEL language support in Atom",
-  "repository": "https://github.com/atom/language-mel",
+  "repository": "https://github.com/elanifegnirf/language-mel",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
