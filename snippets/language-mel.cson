@@ -1,0 +1,34 @@
+'.source.mel':
+  'case for switch':
+    prefix: 'case'
+    body: """
+      case \$${1:value}:
+          ${2:statement};
+          break;
+    """
+  'for in loop':
+    prefix: 'forin'
+    body: """
+      for (\$${1:arrayElement} in \$${2:array})
+      {
+          ${3://statement};
+      }
+    """
+  'for loop':
+    prefix: 'for'
+    body: """
+      for (\$${1:init}; ${2:condition}; ${3:step})
+      {
+          ${4://statement};
+      }
+    """
+  'global proc with return':
+    prefix: 'globalpr'
+    body: """
+      global proc ${1:returnType} ${2:procName}( ${3:argDataType} \$${4:arg} )
+      {
+          ${5://statement};
+
+          return \$${6:result};
+      }
+    """
