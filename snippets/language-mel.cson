@@ -3,7 +3,7 @@
     prefix: 'case'
     body: """
       case \$${1:value}:
-          ${2:statement};
+          ${2://statement};
           break;
     """
   'for in loop':
@@ -11,7 +11,7 @@
     body: """
       for (\$${1:arrayElement} in \$${2:array})
       {
-          ${3://statement};
+          ${3:// statement};
       }
     """
   'for loop':
@@ -19,7 +19,38 @@
     body: """
       for (\$${1:init}; ${2:condition}; ${3:step})
       {
-          ${4://statement};
+          ${4:// statement};
+      }
+    """
+  'while':
+    prefix: 'while'
+    body: """
+      while (${1:condition})
+      {
+          ${2:// statement};
+      }
+    """
+  'do while':
+    prefix: 'dowhile'
+    body: """
+      do {
+          ${1:// statement};
+      } while (${2:condition});
+    """
+  'if'
+    prefix: 'if'
+    body: """
+      if (${1:condition)})
+      {
+          ${2:// statement};
+      }
+    """
+  'else':
+    prefix: 'else'
+    body: """
+      else
+      {
+          ${1:// statement};
       }
     """
   'global proc with return':
