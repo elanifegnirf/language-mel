@@ -37,7 +37,7 @@
           ${1:// statement};
       } while (${2:condition});
     """
-  'if'
+  'if':
     prefix: 'if'
     body: """
       if (${1:condition)})
